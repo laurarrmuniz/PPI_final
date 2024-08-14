@@ -1,0 +1,58 @@
+*{
+    font-family: "Gill Sans", sans-serif;
+}
+
+.footer{
+    bottom: 0 !important; 
+    left: 0 !important;
+    background-color: #212D76 !important;
+    color: rgb(253, 253, 253);
+    width: 100% !important;
+}
+.nav-item a{
+    color: rgb(255, 255, 255);
+}
+
+#menu{
+    background-color: #212D76 !important;
+}
+
+#login-button {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    width: 100px;
+    margin-left: 8px;
+}
+
+#login_nav{
+    padding: 8px 16px;
+}
+
+p{
+    text-indent: 40px;
+}
+.navbar-brand img{
+    text-align: center;
+    height: 155px;
+    width: 310px;
+}
+.login-img{
+    padding: 3px;
+}
+div.dev{
+    display: flex;
+    align-items: flex-start;
+}
+
+.login-botao a{
+    color: rgb(245, 245, 245);
+   border-color: #ff5722;
+   background-color: #212D76;
+}
+
+.login-botao a:hover{
+    background-color: #ff5722 !important;
+    border-color: #212D76;
+ }

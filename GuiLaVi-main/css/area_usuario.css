@@ -1,0 +1,89 @@
+
+main {
+    font-family: Helvetica, Arial, sans-serif;
+    width: 100vw;
+    height: 80vh;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 {
+    background-color: white;
+    width: 50%;
+
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+
+p {
+    padding: 5px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+.opcoes:link,
+.opcoe:active {
+    text-align: center;
+    color: #555;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 1em;
+    background-color: #eee;
+    border: 0.5px solid lightgray;
+    padding: 10px;
+    margin: 5px auto;
+    width: 80%;
+}
+
+.opcoes:hover {
+    background-color: #dedede;
+}
+
+
+/*Responsividade para celulares*/
+@media all AND (max-width: 600px) {
+
+    .container2 {
+        width: 80%;
+    }
+
+}
+
+/*Responsividade para ipad*/
+@media all AND (min-width: 700px) and (max-width: 820px) {
+    main{
+        height: 85vh;
+    }
+    .container2 {
+        width: 80%;
+    }
+}
+/*Responsividade para Surface Pro 7*/
+@media all AND (min-width: 912px) and (max-width: 1000px) {
+main{
+        height: 85vh;
+    }
+   
+    .container2 {
+        width: 80%;
+    }
+}
+
+/*Responsividade para Galaxy Fold*/
+@media all AND (max-width: 280px) {
+main {
+    height: 100vh;
+}
+
+}
+

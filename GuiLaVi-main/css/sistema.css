@@ -1,0 +1,48 @@
+body {
+    background-color: #f8f9fa;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%; 
+    max-width: 800px;
+}
+
+.card {
+    padding: 10px;
+    margin-top: 10px;
+    border: 0px solid rgba(0,0,0,.125) !important;
+}
+
+.card p {
+    color: rgb(190, 10, 10);
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-transform: uppercase; 
+    font-size: 40px;
+}
+
+#chart_div {
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.tituloAdm{
+    margin: 20px 50px 20px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase; 
+    font-size: 60px;
+}

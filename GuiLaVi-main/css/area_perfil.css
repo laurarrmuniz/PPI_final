@@ -1,0 +1,39 @@
+
+/* Adicione estas regras para aumentar o tamanho e tornar a imagem retangular com borda circular */
+.img-fluid.rounded-circles {
+    width: 150px; /* Ajuste o tamanho conforme necessário */
+    height: 200px; /* Ajuste o tamanho conforme necessário */
+    object-fit: cover;
+    border-radius: 15%;
+}
+
+/* Adicione esta regra para centralizar a imagem */
+.float-md-end {
+    margin-left: auto;
+}
+
+/* Adicione esta regra para garantir que a imagem mantenha sua forma */
+img {
+    object-fit: cover;
+}
+
+.texto-com-espaco {
+    margin-bottom: 15px; /* Você pode ajustar este valor conforme necessário */
+}
+
+/* Adicione estas regras para centralizar a main e garantir responsividade */
+main {
+    margin-top: 80px; /* Para evitar sobreposição com a nav */
+    margin-bottom: 50px; /* Para evitar sobreposição com a footer */
+}
+
+/* Adicione esta classe para adicionar espaço após a h1 e antes da imagem */
+.espacamento-h1-imagem {
+    margin-top: 20px; /* Ajuste conforme necessário */
+    margin-bottom: 20px; /* Ajuste conforme necessário */
+}
+
+.d-flex-horizontal {
+    display: flex;
+    align-items: center;
+}

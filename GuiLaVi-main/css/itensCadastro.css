@@ -1,0 +1,174 @@
+#form{
+    margin-top: 10px;
+}
+
+img{
+    margin-right: 10px;
+    border-radius: 3px;
+ }
+
+ #nav{
+    padding: 0.5rem 1rem;
+ }
+
+
+@media (min-width: 1000px) {
+
+    #container{
+        display: flex;
+        justify-content: space-between; /*Cria duas colunas com quantidades iguais de containers*/
+        
+    }
+
+    .coluna{
+        flex-basis: calc(50% - 20px); /* Define a largura das colunas com espaço entre elas */
+    }
+
+    .item{
+        background-color: lightgray;
+        padding: 10px;
+        
+    
+        display: flex;
+        align-items: flex-start; /* Alinhar verticalmente os paragrafos*/
+        text-align: left;
+        
+    
+        border: 2px solid lightgray;
+        box-shadow: 2px 2px 2px gray;
+        margin: 20px auto;
+    }
+
+    
+}
+
+@media (max-width: 1000px){
+   
+
+    .item {
+        background-color: lightgray;
+        padding: 10px;
+        
+
+        display: flex;
+        align-items: flex-start; /* Alinhar verticalmente os paragrafos*/
+
+        width: 85%; /* Certifica-se de que os containers ocupem toda a largura da coluna */
+        margin: 20px; /* Adiciona espaço abaixo de cada container para separação */
+
+        border: 2px solid lightgray;
+        box-shadow: 2px 2px 2px gray;
+        margin: 20px auto;
+        
+    }
+}
+
+@media (max-width: 535px){
+
+
+    .item{
+        display: flex;
+        flex-direction: column; /*Coloca os paragrafos embaixo da imagem*/
+        text-align: justify;
+        align-items: center; /*Cenraliza a imagem*/
+
+        width: 75%; /* Certifica-se de que os containers ocupem toda a largura da coluna */
+        border: 2px solid lightgray;
+        box-shadow: 2px 2px 2px gray;
+        margin: 20px auto;
+        
+    }
+
+    h4{
+        text-align: center;
+    }
+    
+}
+
+
+.footer{
+    background-color: rgb(173, 173, 167) !important;
+    color: rgb(253, 253, 253);
+    width: 100%;
+}
+
+.nav-item a{
+    color: rgb(255, 255, 255);
+}
+
+#menu{
+    background-color: rgb(173, 173, 167) !important;
+}
+
+
+#login-button {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    width: 100px;
+    margin-left: 8px;
+}
+
+.search-img{
+    padding: 5px;
+ }
+
+
+
+.footer{
+    bottom: 0;
+    left: 0;
+    background-color: #212D76 !important;
+    color: rgb(253, 253, 253);
+    width: 100%;
+}
+.nav-item a{
+    color: rgb(255, 255, 255);
+}
+
+#menu{
+    background-color: #212D76 !important;
+}
+
+#login-button {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    width: 100px;
+    margin-left: 8px;
+}
+
+#login_nav{
+    padding: 8px 16px;
+}
+
+.navbar-brand img{
+    text-align: center;
+    height: 155px;
+    width: 310px;
+}
+.login-img{
+    padding: 3px;
+    margin: 0;
+}
+div.dev{
+    display: flex;
+    align-items: flex-start;
+}
+
+.login-botao a{
+    color: rgb(245, 245, 245);
+   border-color: #ff5722;
+   background-color: #212D76;
+}
+
+.login-botao a:hover{
+    background-color: #ff5722 !important;
+    border-color: #212D76;
+ }
+
+ *{
+    font-family: "Gill Sans", sans-serif;
+}

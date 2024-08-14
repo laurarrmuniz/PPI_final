@@ -1,0 +1,75 @@
+a:hover{
+    color: rgb(89, 89, 200);
+}
+
+.sessao{
+    border-top: 1px solid gray;
+}
+
+h1,h2{
+    color: #212D76;
+    margin-top: 2px;
+}
+
+body{
+    background-color: white !important;
+    color: #444;
+    font-family: Helvetica;
+    line-height: 1.5;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+main{
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 250px;
+    width: 60%;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.botão{
+    margin-top: 10px;
+}
+
+.deletaConta{
+    float: right !important;
+}
+
+/* Estilos padrão para telas maiores */
+main {
+    width: 60%;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+/* Estilos padrão para telas maiores */
+main {
+    width: 60%;
+}
+
+/* Ajustes para telas médias */
+@media (max-width: 768px) {
+    main {
+        width: 80%;
+    }
+}
+
+/* Ajustes para telas pequenas (dispositivos móveis) */
+@media (max-width: 576px) {
+    main {
+        width: 95%;
+    }
+}
+
+/* Ajustes para telas muito pequenas, como 280px */
+@media (max-width: 280px) {
+    main {
+        width: 100%;
+        padding: 10px;
+        margin: 5px auto;
+    }
+}

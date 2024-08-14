@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-4.3.1.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css'>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/bootstrap-4.3.1.bundle.min.js.js"></script>
+    <title>GuiLaViEducation-Login</title>
+</head>
+
+<body>
+
+    <main>
+        <div class="container">
+            <div class="d-flex justify-content-center align-items-center" style="height: 100vh;">
+                <div class="text-center">
+                  <img src="./img/logo.png" alt="Logo" class="mb-3" width="300">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title">Login usuário</h2>
+                            <form name="formCadastro" id="loginForm" action="../php/login.php" method="post">
+                                <div class="form-floating mb-3">
+                                    <input type="email" id="email" name="email" autocomplete="off" class="form-control" placeholder="Email">
+                                    <label for="email">Email</label>
+                                    <div class="alert alert-danger d-none" id="alert-email"></div>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="password" id="senha" name="senha" class="form-control" placeholder="Senha">
+                                    <label for="senha">Senha</label>
+                                    <div class="alert alert-danger d-none" id="alert-senha"></div>
+                                </div>
+                                <div class="mb-3">
+                                    <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="mt-3">
+                        <a href="index.html" class="text-secondary">Voltar para a página inicial</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="py-3 my-4">
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                    <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+                    <li class="nav-item"><a href="cadastroUsuario.html" class="nav-link px-2 text-body-secondary">Cadastrar</a></li>
+                    <li class="nav-item"><a href="sobre.html" class="nav-link px-2 text-body-secondary">Sobre</a></li>
+                    <li class="nav-item"><a href="itensCadastro.html" class="nav-link px-2 text-body-secondary">Buscar</a></li>
+                    <li class="nav-item"><a href="login.html" class="nav-link px-2 text-body-secondary">Login</a></li>
+                </ul>
+                <p class="text-center text-body-secondary">© 2023 Company, Inc</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
